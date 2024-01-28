@@ -55,7 +55,7 @@ class KomaruMod(loader.Module):
             [
                 message_in_channel
                 async for message_in_channel in self.client.iter_messages(
-                    "komaru_world", limit=400, filter=search_type
+                    "komaru_world", limit=4000, filter=search_type
                 )
             ]
         )
